@@ -1,0 +1,68 @@
+.toDoField{
+    width: 19vw;
+    border-radius: 20px 0px 0px 20px;
+    height: 26px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.toDoPharagraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19vw;
+    border-radius: 20px 0px 0px 20px;
+    height: 28px;
+    border: none;
+    overflow: hidden;
+}
+.totoDoPharagraphActive{
+    background-color: rgb(49, 1, 50);
+    color: #ebbaff;
+}
+
+
+.toDoPharagraphDone{
+    background-color: rgb(50, 1, 18);
+    color: #ebbaff;
+    text-decoration: line-through;
+}
+
+.fieldWraper{
+    display: flex;
+    gap: 0;
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+
+button:hover{
+    transform: scale(1.1);
+}
+
+
+.delBtn{
+    background-color: rgb(49, 1, 50);
+}
+
+.delBtn:hover {
+    transition: 1s;
+    background-color: rgb(209, 3, 3);
+    
+}
+
+.complitedBtn{
+    background-color: rgb(49, 1, 50);
+}
+.complitedBtn:hover{
+    transition: 1s;
+    background-color: rgb(1, 160, 1);
+}
